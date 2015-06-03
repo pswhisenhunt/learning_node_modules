@@ -3,6 +3,7 @@ module.exports = {
     var goodPeople = people.filter(this.toRemove);
     return goodPeople;
   },
+  
   toRemove: function(obj) {
     if(obj.name) {
       return obj;
